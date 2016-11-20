@@ -21,6 +21,13 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        final Button buttonContacts = (Button) findViewById(R.id.buttonContacts);
+        buttonContacts.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, Contacts.class));
+            }
+        });
+
 
 
     }

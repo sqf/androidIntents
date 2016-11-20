@@ -15,7 +15,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SMS"></activity>
+        <activity android:name=".SMS" />
+        <activity android:name=".Contacts"></activity>
+        <uses-permission android:name="android.permission.READ_CONTACTS" />
     </application>
 
 </manifest>
+
