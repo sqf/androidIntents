@@ -34,4 +34,13 @@
         android:layout_alignStart="@+id/buttonSms"
         android:layout_marginTop="15dp"
         android:id="@+id/buttonContacts" />
+
+    <Button
+        android:text="Mapa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonContacts"
+        android:layout_alignStart="@+id/buttonContacts"
+        android:layout_marginTop="14dp"
+        android:id="@+id/buttonMap" />
 </RelativeLayout>
