@@ -43,4 +43,24 @@
         android:layout_alignStart="@+id/buttonContacts"
         android:layout_marginTop="14dp"
         android:id="@+id/buttonMap" />
+
+    <Button
+        android:text="Moja aktywność"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonMyActivity"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="90dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="parametr"
+        android:ems="10"
+        android:layout_above="@+id/buttonMyActivity"
+        android:layout_alignStart="@+id/buttonMap"
+        android:layout_marginBottom="30dp"
+        android:id="@+id/editText" />
 </RelativeLayout>

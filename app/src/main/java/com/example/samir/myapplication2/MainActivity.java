@@ -35,6 +35,17 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        final Button buttonMyActivity = (Button) findViewById(R.id.buttonMyActivity);
+        buttonMyActivity.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Bundle extras = new Bundle();
+                extras.putString("kij", "janusz");
+                Intent intent = new Intent(MainActivity.this, MyActivity.class);
+                intent.putExtras(extras);
+                startActivity(intent);
+            }
+        });
+
     }
 
 }
