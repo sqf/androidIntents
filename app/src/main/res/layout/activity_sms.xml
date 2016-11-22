@@ -33,10 +33,10 @@
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="tresc wiadomosci"
         android:ems="10"
         android:id="@+id/payloadEt"
         android:layout_below="@+id/smsRecipientEt"
         android:layout_alignStart="@+id/smsRecipientEt"
-        android:inputType="textShortMessage" />
+        android:inputType="textShortMessage"
+        android:hint="tresc wiadomosci" />
 </RelativeLayout>

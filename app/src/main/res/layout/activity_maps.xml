@@ -14,24 +14,24 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
-        android:text="Dlugosc"
         android:ems="10"
         android:id="@+id/editTextMapLongitude"
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true"
         android:layout_marginStart="23dp"
-        android:layout_marginTop="186dp" />
+        android:layout_marginTop="186dp"
+        android:hint="Dlugosc" />
 
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
-        android:text="Szerokosc"
         android:ems="10"
         android:id="@+id/editTextMapLatitude"
         android:layout_marginBottom="41dp"
         android:layout_alignBottom="@+id/editTextMapLongitude"
-        android:layout_alignStart="@+id/editTextMapLongitude" />
+        android:layout_alignStart="@+id/editTextMapLongitude"
+        android:hint="Szerokosc" />
 
     <Button
         android:text="Pokaz mape"

@@ -11,11 +11,40 @@
     tools:context="com.example.samir.myapplication2.MyActivity">
 
     <TextView
-        android:text="Moja aktywnosc"
+        android:text="Otrzymalem:"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true"
         android:layout_marginStart="30dp"
-        android:id="@+id/textViewMyActivity" />
+        android:id="@+id/textView2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewMyActivity"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="11dp"
+        android:layout_alignStart="@+id/textView2"
+        android:text="aaa" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:layout_marginTop="20dp"
+        android:id="@+id/MultiplyEt"
+        android:hint="Przez ile pomnozyc?"
+        android:layout_below="@+id/textViewMyActivity"
+        android:layout_alignStart="@+id/textViewMyActivity" />
+
+    <Button
+        android:text="ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:id="@+id/buttonOk"
+        android:layout_below="@+id/MultiplyEt"
+        android:layout_alignStart="@+id/MultiplyEt" />
 </RelativeLayout>
